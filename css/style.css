@@ -5,3 +5,22 @@ i.red {
   background-color: red;
   color: white;
 }
+
+.menu {
+  border: none;
+  display: inline-block;
+}
+
+.block {
+  display: inline-block;
+  border: solid;
+  border-color: gray;
+  border-width: thin;
+  background-color: white;
+}
+
+.logo {
+  display: inline-block;
+  border: none;
+  background-color: white;
+}
