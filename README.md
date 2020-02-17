@@ -12,17 +12,19 @@ Built With:
 HTML,
 CSS.
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple example steps:
 
 Clone: git@github.com:Maclenn77/Project-Embeding-Videos.git
 
-Authors
-👤 Author1
+Authors:
+
+👤 Juan Paulo Perez-Tejada
 
 Github: @Maclenn77
 Twitter: @srjuanpapas
 Linkedin: juanpaulopereztejada
-👤 Author2
+
+👤 Marko Nikovic
 
 Github: @markonikovic
 Twitter: @MarkoNikovic
