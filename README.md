@@ -20,8 +20,8 @@ Authors
 👤 Author1
 
 Github: @Maclenn77
-Twitter: @twitterhandle
-Linkedin: linkedin
+Twitter: @srjuanpapas
+Linkedin: juanpaulopereztejada
 👤 Author2
 
 Github: @markonikovic
@@ -38,7 +38,3 @@ Give a ⭐️ if you like this project!
 
 Acknowledgments
 Hat tip to anyone whose code was used
-Inspiration
-etc
-📝 License
-This project is MIT licensed.
