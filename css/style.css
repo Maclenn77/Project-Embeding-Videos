@@ -1,26 +1,83 @@
-
 i.red {
-  padding-left: 2px;
-  padding-right: 2px;
-  background-color: red;
-  color: white;
+	padding-left: 2px;
+	padding-right: 2px;
+	background-color: red;
+	color: white;
 }
 
 .menu {
-  border: none;
-  display: inline-block;
+	border: none;
+	display: inline-block;
 }
 
 .block {
-  display: inline-block;
-  border: solid;
-  border-color: gray;
-  border-width: thin;
-  background-color: white;
+	display: inline-block;
+	border: solid;
+	border-color: gray;
+	border-width: thin;
+	background-color: white;
 }
 
 .logo {
-  display: inline-block;
-  border: none;
-  background-color: white;
+	display: inline-block;
+	border: none;
+	background-color: white;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #f1f1f1;
+}
+
+.gutter {
+	padding-left: 15px;
+}
+
+#user-section {
+	background-color: white;
+	padding-bottom: 50px;
+}
+
+#video-tittle {
+	font-weight: 100;
+	margin-top: 10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+#user-avatar {
+	background-color: #689f39;
+	border: none;
+	color: white;
+	font-size: 25px;
+	width: 50px;
+	height: 50px;
+}
+
+#user-name {
+	position: relative;
+	top: -20px;
+	display: inline;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+#user-subscribe {
+	position: relative;
+	left: -107px;
+	top: 6px;
+	color: white;
+	background-color: red;
+	border: red 1px solid;
+	padding: 5px 8px;
+	font-size: 12px;
+}
+
+#sub-number {
+	color: gray;
+	border: gray 1px solid;
+	font-size: 12px;
+	padding: 5px 8px;
+	position: relative;
+	left: -112px;
+	top: 6px;
 }
