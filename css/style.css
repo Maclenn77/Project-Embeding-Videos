@@ -6,6 +6,10 @@ i.red {
 	border-radius: 10%;
 }
 
+button :hover {
+	background-color: black;
+}
+
 #seach-icon {
 	padding-top: 3px;
 	padding-bottom: 3px;
