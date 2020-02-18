@@ -81,3 +81,46 @@ body {
 	left: -112px;
 	top: 6px;
 }
+
+#views-number {
+	color: gray;
+	position: relative;
+	left: 250px;
+	top: 20px;
+}
+
+#gray-hr {
+	position: relative;
+	left: -200px;
+	border: 0.5px solid gray;
+	width: 700px;
+}
+
+#blue-hr {
+	border: 1px solid #167ac6;
+	width: 150px;
+	position: relative;
+	top: 9px;
+	left: 60px;
+}
+
+.like-btn {
+	border: none;
+	padding: 1px;
+	color: gray;
+	background-color: white;
+	position: relative;
+	top: 5px;
+	padding-right: 5px;
+}
+
+#like-dislike {
+	position: relative;
+	left: 520px;
+	top: -10px;
+}
+
+.like-num {
+	color: gray;
+	font-size: 10;
+}
