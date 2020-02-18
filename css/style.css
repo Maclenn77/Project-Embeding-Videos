@@ -1,21 +1,42 @@
 i.red {
-	padding-left: 2px;
-	padding-right: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
 	background-color: red;
 	color: white;
+	border-radius: 10%;
+}
+
+#seach-icon {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	position: relative;
+	left: - 100px;
 }
 
 .menu {
 	border: none;
 	display: inline-block;
+	background-color: white;
 }
 
-.block {
+#YT-span {
+	font-size: 18px;
+	font-weight: 700;
+	position: relative;
+	top: -5px;
+	left: 5px;
+}
+
+.search-field {
 	display: inline-block;
 	border: solid;
 	border-color: gray;
 	border-width: thin;
 	background-color: white;
+	width: 300px;
+	height: 30px;
+	position: relative;
+	top: -7px;
 }
 
 .logo {
@@ -27,10 +48,9 @@ i.red {
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #f1f1f1;
-  padding-left: : 200px;
-  padding-right: : 200px;
-  margin-left: 300px;
-  margin-right: 300px;
+
+	margin-left: 300px;
+	margin-right: 300px;
 }
 
 .gutter {
@@ -40,6 +60,7 @@ body {
 #user-section {
 	background-color: white;
 	padding-bottom: 50px;
+	padding-right: 50px;
 }
 
 #video-tittle {
@@ -89,15 +110,15 @@ body {
 #views-number {
 	color: gray;
 	position: relative;
-	left: 250px;
+	left: 220px;
 	top: 20px;
 }
 
 #gray-hr {
 	position: relative;
-	left: -200px;
+	left: 0px;
 	border: 0.5px solid gray;
-	width: 700px;
+	width: 580px;
 }
 
 #blue-hr {
@@ -105,10 +126,10 @@ body {
 	width: 150px;
 	position: relative;
 	top: 9px;
-	left: 60px;
+	left: 200px;
 }
 
-.like-btn {
+.btn {
 	border: none;
 	padding: 1px;
 	color: gray;
@@ -120,8 +141,8 @@ body {
 
 #like-dislike {
 	position: relative;
-	left: 520px;
-	top: -10px;
+	left: 500px;
+	top: -30px;
 }
 
 .like-num {
@@ -129,43 +150,57 @@ body {
 	font-size: 10;
 }
 
+#share-span {
+	color: gray;
+}
+
 nav {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: white;
-  display: inline-block;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 15px;
+	padding-right: 50px;
+	background-color: white;
 }
 
 button {
-  border: none;
+	border: none;
 }
 
 .sign-in {
-  background-color: blue;
-  color: white;
-  padding: 10px;
+	background-color: blue;
+	color: white;
+	padding: 10px;
 }
 main {
-  max-width: 650px;
+	max-width: 650px;
 }
 aside {
-  position: relative;
-  top: -720px;
-  left: 670px;
+	position: relative;
+	top: -820px;
+	left: 650px;
+	background-color: white;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-right: 30px;
+	max-width: 150px;
 }
 
 img {
-  align-items: left;
-  width: 150px;
-  height: 65px;
+	align-items: left;
+	width: 150px;
+	height: 65px;
 }
 
 p.aside {
-  color: gray;
-  font-size: 8px;
+	color: gray;
+	font-size: 8px;
 }
 
 h1.aside {
-  font-size: 12px;
-  font-weight: bold;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#description-p {
+	text-align: justify;
 }

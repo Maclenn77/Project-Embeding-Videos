@@ -8,11 +8,12 @@
 
 <body>
 
-<nav class="">
+<nav>
   <button type="button" class="menu"><i class="material-icons menu">dehaze</i> </button>
-  <button type="button" class="menu"><i class="material-icons red">play_arrow</i>YouTube</button>
-  <input type="text" placeholder="Search..."  class="block"></input>
-  <button type="button" class="material-icons block">search</button>
+  <button type="button" class="menu"><i class="material-icons red">play_arrow</i><span id="YT-span">YouTube</span></button>
+  <input type="text" placeholder="Search..."  class="search-field"  id="search-box"></input>
+  <button type="button" class="material-icons" id="seach-icon">search</button>
+
   <button type="button" class="material-icons">file_upload</button>
   <button type="button" class="sign-in">Sign in</button>
 </nav>
@@ -21,7 +22,7 @@
 
   <article id="main-video">
 
-      <iframe width="640" height="360" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0"
+      <iframe width="625" height="360" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0"
       allowfullscreen></iframe>
 
       <div id="user-section" class="gutter">
@@ -33,15 +34,13 @@
         <span id="views-number">50,016 views</span>
         <hr id="blue-hr">
         <hr id="gray-hr">
+        <button class="btn"><i class="material-icons">share</i></button><span id="share-span">Share</span>
         <div id="like-dislike">
-          <button class="like-btn" ><i class="material-icons">thumb_up</i></i></button><span class="like-num">359</span>
-          <button class="like-btn" ><i class="material-icons">thumb_down</i></button><span class="like-num">14</span>
+          <button class="btn" ><i class="material-icons">thumb_up</i></i></button><span class="like-num">359</span>
+          <button class="btn" ><i class="material-icons">thumb_down</i></button><span class="like-num">14</span>
         </div>
       <p><strong> Published on <time datetime="2014-02-27">February 27, 2014</time></strong></p>
-      <p>How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.</p>
-
-
-
+      <p id="description-p">How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.</p>
 
       </div>
 
@@ -60,7 +59,7 @@
     <p>123 views</p>
   </article>
   <article>
-    <img src="images/image3.jpg"></img>
+    <img src="images/image3.jpeg"></img>
     <h1 class="titleaside">Third video</h1>
     <p>123 views</p>
   </article>
