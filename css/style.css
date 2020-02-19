@@ -1,7 +1,7 @@
 /* Create a three columns grid in the body position*/
 .wrapper {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: 325px 325px 325px;
 	grid-template-rows: 100px, 360px, auto, 200px, auto;
 	grid-column-gap: 10px;
 	grid-row-gap: 10px;
@@ -116,7 +116,7 @@ input {
 
 #user-section {
 	display: grid;
-	grid-template-columns: 50px 100px auto auto;
+	grid-template-columns: 50px 150px auto 200px;
 	grid-template-rows: auto auto auto auto;
 	grid-column-gap: 10px;
 }
@@ -209,21 +209,23 @@ input {
 
 #views-number {
 	color: gray;
-	position: relative;
-	left: 220px;
-	top: 20px;
+	grid-column: 4/5;
+	grid-row: 2/3;
+	align-self: end;
+	justify-self: right;
 }
 
 /* Create a gray bar that represents video advance */
 
-#gray-hr {
-	position: relative;
-	left: -140px;
+.gray-hr {
 	border: 0.5px solid gray;
-	width: 580px;
+	width: 650px;
+	grid-column: 1/5;
+	grid-row: 3/4;
+
 }
 
-/* Create a blue bar that represents video advance */
+/* Create a blue bar that represents video advance
 
 #blue-hr {
 	border: 1px solid #167ac6;
@@ -231,6 +233,24 @@ input {
 	position: relative;
 	top: 9px;
 	left: 70px;
+}
+
+/* Positioned icons in the right side of main */
+
+.right-btn {
+	grid-column: 1/2;
+	grid-row: 4/5;
+	justify-self: right;
+	align-self: center;
+}
+
+/* Positioned icons in the left side of main */
+
+.left-btn {
+	grid-column: 4/5;
+	grid-row: 4/5;
+	align-self: end;
+	justify-self: right;
 }
 
 /* Style icons in the main position */
@@ -245,7 +265,7 @@ input {
 	padding-right: 5px;
 }
 
-/* Style like and dislike icons in the main position */
+/* Style like and dislike icons in the main position
 
 #like-dislike {
 	position: relative;
@@ -262,13 +282,17 @@ input {
 
 /* Style share icon in the main position */
 
-#share-span {
+.share-span {
 	color: gray;
+	grid-column: 2/3;
+	grid-row: 4/5;
+	align-self: center;
+	justify-self: left;
 }
 
 body {
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 p {
