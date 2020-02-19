@@ -112,13 +112,14 @@ input {
 	align-self: center;
 }
 
-/* Creates a grid in the user-section
+/* Creates a grid in the user-section */
 
 #user-section {
 	display: grid;
+	grid-template-columns: 50px 100px auto auto;
+	grid-template-rows: auto auto auto auto;
+	grid-column-gap: 10px;
 }
-
-*/
 
 /*Make images smaller */
 
@@ -152,6 +153,7 @@ input {
 	margin-top: 10px;
 	padding-top: 10px;
 	margin-bottom: 10px;
+	grid-column: 1/5;
 }
 
 /* Style user avatar in the main position */
@@ -163,41 +165,44 @@ input {
 	font-size: 25px;
 	width: 50px;
 	height: 50px;
+	grid-row: 2/3;
+	grid-column: 1/2;
 }
 
 /* Style user name in the main position */
 
 #user-name {
-	position: relative;
-	top: -20px;
-	display: inline;
 	font-size: 14px;
 	font-weight: 500;
+	grid-row: 2/3;
+	grid-column: 2/3;
+	align-self: start;
 }
 
 /* Style subscribe button in the main position */
 
 #user-subscribe {
-	position: relative;
-	left: -107px;
-	top: 6px;
 	color: white;
 	background-color: red;
 	border: red 1px solid;
 	padding: 5px 8px;
 	font-size: 12px;
+	height: 30px;
+	width: 70px;
+	grid-row: 2/3;
+	grid-column: 2/3;
+	align-self: end;
 }
 
 /* Style subscribers number in the main position */
 
 #sub-number {
 	color: gray;
-	border: gray 1px solid;
-	font-size: 12px;
-	padding: 5px 8px;
-	position: relative;
-	left: -112px;
-	top: 6px;
+	font-size: 16px;
+	grid-column: 2/3;
+	grid-row: 2/3;
+	align-self: end;
+	justify-self: end;
 }
 
 /* Style view number in the main position */
@@ -264,4 +269,8 @@ input {
 body {
 	margin-left: 50px;
 	margin-right: 50px;
+}
+
+p {
+	margin: 0;
 }
