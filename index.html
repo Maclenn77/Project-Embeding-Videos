@@ -16,21 +16,21 @@
 
     <nav class="box-1">
         <button type="button" class="menu"><i class="material-icons">dehaze</i> </button>
-        <img alt="YouTube Logo" src="images/yt-logo.jpg" width="100" height="128" class="logo">
+        <img alt="YouTube Logo" src="images/yt-logo.jpg" class="logo">
 
         <input type="text" placeholder="Search..." class="search">
         <button type="button" class="material-icons search-icon">search</button>
 
-        <img alt="Twitter picture" src="images/twitter.jpg" height="30" width="40" id="twitter-img">
-        <img alt="Loupe picture" src="images/loupe.jpg" height="30" width="40" id="loupe-img">
-        <img alt="Photo-camera picture" src="images/photo-camera.jpg" height="30" width="40" id="photo-camera-img">
+        <img alt="Twitter picture" src="images/twitter.jpg" id="twitter-img" class="left-icons">
+        <img alt="Loupe picture" src="images/loupe.jpg" id="loupe-img" class="left-icons">
+        <img alt="Photo-camera picture" src="images/photo-camera.jpg" id="photo-camera-img" class="left-icons">
     </nav>
 
     <!-- Create a box in the main position with the properties defined in the css -->
 
     <main class="box-2">
 
-      <iframe width="650" height="360" src="https://www.youtube.com/embed/V74l_zS1x8E"
+      <iframe src="https://www.youtube.com/embed/V74l_zS1x8E"
       allowfullscreen></iframe>
     <!-- Section with the title, avatar, dislike and like buttons, etc -->
 
@@ -55,25 +55,34 @@
 
   <!-- Aside position with thumbnails images of videos, title and previews -->
 
-    <aside class="box-3">  <article>
+    <aside class="box-3">
+      <article class="thumbnails-videos">
     <img alt="Picture 1" class="make-small" src="images/image1.jpg">
-    <h2 class="titleaside">First video</h2>
-    <p class="views-aside">123 views</p>
+    <div class="video-info">
+      <h2 class="titleaside">First video</h2>
+      <p class="views-aside">123 views</p>
+    </div>
   </article>
-  <article>
+  <article class="thumbnails-videos">
     <img alt="Picture 2" class="make-small" src="images/image2.jpg">
-    <h2 class="titleaside">Second video</h2>
-    <p class="views-aside">123 views</p>
+    <div class="video-info">
+      <h2 class="titleaside">Second video</h2>
+      <p class="views-aside">123 views</p>
+    </div>
   </article>
-  <article>
+  <article class="thumbnails-videos">
     <img alt="Picture 3" class="make-small" src="images/image3.jpeg">
-    <h2 class="titleaside">Third video</h2>
-    <p class="views-aside">123 views</p>
+    <div class="video-info">
+      <h2 class="titleaside">Third video</h2>
+      <p class="views-aside">123 views</p>
+    </div>
   </article>
-  <article>
+  <article class="thumbnails-videos">
     <img alt="Picture 4" class="make-small" src="images/image4.jpg">
-    <h2 class="titleaside">Fourth video</h2>
-    <p class="views-aside">123 views</p>
+    <div class="video-info">
+      <h2 class="titleaside">Fourth video</h2>
+      <p class="views-aside">123 views</p>
+    </div>
   </article>
 </aside>
 <!-- Article with publication date info and video summary -->
