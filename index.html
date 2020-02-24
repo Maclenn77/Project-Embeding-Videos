@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -7,23 +8,93 @@
 </head>
 
 <body>
+  <!-- A grid is create with the properties defined in the css file -->
 
-<nav class="">
-  <button type="button" class="menu"><i class="material-icons menu">dehaze</i> </button>
-  <button type="button" class="logo"><i class="material-icons red">play_arrow</i>YouTube</button>
-  <input type="text" placeholder="Search..."  class="block"></input>
-  <button type="button" class="material-icons block">search</button>
-  <button type="button" class="material-icons">file_upload</button>
-  <button type="button" class="sign-in">Sign in</button>
-</nav>
+  <div class="wrapper">
 
-<main>
-</main>
-<div>
-</div>
+    <!-- Create a navbar in the header position with the properties defined in the css -->
 
-<footer>
-</footer>
+    <nav class="box-1">
+        <button type="button" class="menu"><i class="material-icons">dehaze</i> </button>
+        <img alt="YouTube Logo" src="images/yt-logo.jpg" class="logo">
+
+        <input type="text" placeholder="Search..." class="search">
+        <button type="button" class="material-icons search-icon">search</button>
+
+        <img alt="Twitter picture" src="images/twitter.jpg" id="twitter-img" class="left-icons">
+        <img alt="Loupe picture" src="images/loupe.jpg" id="loupe-img" class="left-icons">
+        <img alt="Photo-camera picture" src="images/photo-camera.jpg" id="photo-camera-img" class="left-icons">
+    </nav>
+
+    <!-- Create a box in the main position with the properties defined in the css -->
+
+    <main class="box-2">
+      <div class="video-container"> 
+        <iframe src="https://www.youtube.com/embed/V74l_zS1x8E"
+        allowfullscreen></iframe>
+      </div>
+    <!-- Section with the title, avatar, dislike and like buttons, etc -->
+
+      <section id="user-section">
+        <h3 id="video-tittle">Contributing to Open Source Part I: The Easy Way</h3>
+        <button id="user-avatar">T</button>
+        <p id="user-name">The Odin Project</p>
+        <button id="user-subscribe">Subscribe</button>
+        <span id="sub-number">799</span>
+        <span id="views-number">50,016 views</span>
+        <hr id="gray-hr">
+        <div class="right-btn">
+          <button class="btn"><i class="material-icons">share</i></button>
+        </div>
+        <span id="share-span">Share</span>
+        <div id="like-dislike" class="left-btn">
+          <button class="btn" ><i class="material-icons">thumb_up</i></button><span class="like-num">359</span>
+          <button class="btn" ><i class="material-icons">thumb_down</i></button><span class="like-num">14</span>
+        </div>
+      </section>
+    </main>
+
+  <!-- Aside position with thumbnails images of videos, title and previews -->
+
+    <aside class="box-3">
+      <article class="thumbnails-videos">
+    <img alt="Picture 1" class="make-small" src="images/image1.jpg">
+    <div class="video-info">
+      <h2 class="titleaside">First video</h2>
+      <p class="views-aside">123 views</p>
+    </div>
+  </article>
+  <article class="thumbnails-videos">
+    <img alt="Picture 2" class="make-small" src="images/image2.jpg">
+    <div class="video-info">
+      <h2 class="titleaside">Second video</h2>
+      <p class="views-aside">123 views</p>
+    </div>
+  </article>
+  <article class="thumbnails-videos">
+    <img alt="Picture 3" class="make-small" src="images/image3.jpeg">
+    <div class="video-info">
+      <h2 class="titleaside">Third video</h2>
+      <p class="views-aside">123 views</p>
+    </div>
+  </article>
+  <article class="thumbnails-videos">
+    <img alt="Picture 4" class="make-small" src="images/image4.jpg">
+    <div class="video-info">
+      <h2 class="titleaside">Fourth video</h2>
+      <p class="views-aside">123 views</p>
+    </div>
+  </article>
+</aside>
+<!-- Article with publication date info and video summary -->
+
+    <div class="box-4">
+    <p><strong> Published on <time datetime="2014-02-27">February 27, 2014</time></strong></p>
+      <p id="description-p">How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.</p>
+    </div>
+  </div>
+
+
 </body>
 
 </html>
